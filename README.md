@@ -36,7 +36,7 @@
 ![header](img/header.png)
 
 ```
-header.header>(nav.header__navigation>a.navigation__link*3)+a.header__phone
+header.header>(nav.header__navigation>a.navigation__link*3)+.header__phone.phone>img.phone__icon+a.phone__text
 ```
 ### form
 
@@ -51,7 +51,7 @@ form.form>p.form__title+(label.form__label>input.form__input)*2+button.form__but
 ![card](img/card.png)
 
 ```
-card.card>(ul.card__list>(li.card__item>h2.item__title+p.item_text)*4)>button.card__button
+card.card>(ul.card__list>(li.card__item>h2.item__title+p.item__text)*4)>button.card__button
 ```
 
 ### footer
@@ -59,5 +59,5 @@ card.card>(ul.card__list>(li.card__item>h2.item__title+p.item_text)*4)>button.ca
 ![footer](img/footer.png)
 
 ```
-footer.footer>(h2.footer__title+.footer__contacts>(a.footer__contacts.contacts>img.contacts_icon+span.contacts_text)*2+a.footer__links*3)+p.footer_text
+footer.footer>(h2.footer__title+.footer__contacts>(a.footer__contacts.contact>img.contact_icon+span.contact__text)*2+.footer__links>a.footer__link*3)+p.footer__text
 ```
