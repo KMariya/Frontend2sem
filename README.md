@@ -3,7 +3,6 @@
 ## human body
 
 ```
-
 .head
 .head__eyes
 .head__nose
@@ -28,7 +27,31 @@
 .legs__knee
 .legs__foot
 
+```
+
+## Emmet
+
+### header
+
+![]()
+
+```
+header.header>nav.header__navigation+a.header__phone
+```
+### form
+
+```
+form.form>p.form__title+(label.form__label>input.form__input)*2+button.form__button
+```
+
+### card
+
+```
+card.card>(ul.card__list>(li.card__item>h2.item__title+p.item_text)*4)>button.card__button
+```
+
+### 
 
 ```
 
-
+```
