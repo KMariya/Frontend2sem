@@ -33,12 +33,14 @@
 
 ### header
 
-![]()
+![header](img/header.png)
 
 ```
-header.header>nav.header__navigation+a.header__phone
+header.header>(nav.header__navigation>a.navigation__link*3)+a.header__phone
 ```
 ### form
+
+![form](img/form.png)
 
 ```
 form.form>p.form__title+(label.form__label>input.form__input)*2+button.form__button
@@ -46,12 +48,16 @@ form.form>p.form__title+(label.form__label>input.form__input)*2+button.form__but
 
 ### card
 
+![card](img/card.png)
+
 ```
 card.card>(ul.card__list>(li.card__item>h2.item__title+p.item_text)*4)>button.card__button
 ```
 
-### 
+### footer
+
+![footer](img/footer.png)
 
 ```
-
+footer.footer>(h2.footer__title+.footer__contacts>(a.footer__contacts.contacts>img.contacts_icon+span.contacts_text)*2+a.footer__links*3)+p.footer_text
 ```
